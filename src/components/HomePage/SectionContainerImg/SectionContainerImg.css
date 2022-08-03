@@ -1,0 +1,66 @@
+.sectionHome {
+  width: 54rem;
+  height: 54rem;
+  margin-right: 5%;
+}
+
+.um {
+  width: 100%;
+  height: 100%;
+  background: #2b2831;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dois {
+  width: 90%;
+  height: 90%;
+  background: #342b39;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tres {
+  width: 80%;
+  height: 80%;
+  background: #3d2e40;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1400px) {
+  .sectionHome {
+    width: 50rem;
+    height: 50rem;
+  }
+}
+
+@media (max-width: 1005px) {
+  .sectionHome {
+    width: 40rem;
+    height: 40rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .sectionHome {
+    width: 30rem;
+    height: 30rem;
+  }
+  .imgHome {
+    width: 35rem;
+    height: 35rem;
+  }
+}
+
+@media (max-width: 635px) {
+  .sectionHome {
+    display: none;
+  }
+}

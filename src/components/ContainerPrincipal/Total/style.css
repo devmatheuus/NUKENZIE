@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600&display=swap');
+
+.containerTotal {
+  width: 36rem;
+  height: 9.6rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.8rem 2.4rem 1rem 1.6rem;
+  border-radius: 4px;
+  border: 1px solid #e9ecef;
+  font-family: 'Nunito';
+  margin-top: 2rem;
+}
+.textos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50%;
+}
+.textos h2 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 30px;
+  color: #212529;
+}
+.textos p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #5b6166;
+}
+.valor h2 {
+  height: 30px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #fd377e;
+}
+
+@media (max-width: 1050px) {
+  .containerTotal {
+    width: 30rem;
+  }
+}
+@media (max-width: 630px) {
+  .containerTotal {
+    width: 100%;
+  }
+}

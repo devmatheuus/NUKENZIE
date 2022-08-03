@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Inter';
+}
+.form {
+  width: 100%;
+  height: 30rem;
+  padding: 1.8rem 2.4rem 1rem 1.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+}
+
+label {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 10px;
+  color: #212529;
+}
+
+input[type='text'] {
+  width: 100%;
+  height: 5.2rem;
+  padding: 0px 16px;
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+  margin-top: 1.2rem;
+  outline: none;
+  border: none;
+}
+
+input[type='text']::placeholder {
+  width: 19rem;
+  height: 2.4rem;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #868e96;
+}
+
+small {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #868e96;
+}
+
+.containerCentral {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.containerCentral .containerValor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12.8rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 16px;
+  gap: 10px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.containerCentral .containerValor input {
+  width: 80%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: #f8f9fa;
+  height: 5.2rem;
+  padding: 0px 16px;
+}
+.containerCentral .containerValor p {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 26px;
+  color: #5b6166;
+  width: 21px;
+  height: 26px;
+}
+.containerOpcoes {
+  display: flex;
+  justify-content: center;
+  background: #f8f9fa;
+  width: 50%;
+  margin-left: 2rem;
+  border-radius: 8px;
+}
+
+.containerOpcoes select {
+  width: 94%;
+  background: #f8f9fa;
+  border: none;
+  outline: none;
+  height: 95%;
+  height: 5.2rem;
+  padding: 0px 16px;
+}
+.buttonForm {
+  width: 100%;
+  padding: 13px 20px;
+  background: #fd377e;
+  border: 2px solid #fd377e;
+  border-radius: 8px;
+
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 19px;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.buttonForm:hover {
+  background: #e21a60;
+}
+
+@media (max-width: 630px) {
+  .buttonForm {
+    width: 90%;
+    margin-left: 6%;
+  }
+  input[type='text'] {
+    width: 90%;
+    margin-left: 5%;
+  }
+  small,
+  label {
+    margin-left: 6%;
+  }
+}

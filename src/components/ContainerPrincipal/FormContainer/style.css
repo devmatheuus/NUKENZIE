@@ -1,0 +1,24 @@
+html {
+  font-size: 62.5%;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 36rem;
+  height: 47.7rem;
+}
+
+@media (max-width: 1050px) {
+  .formContainer {
+    width: 30rem;
+  }
+}
+@media (max-width: 630px) {
+  .formContainer {
+    height: 30rem;
+    width: 100%;
+  }
+}

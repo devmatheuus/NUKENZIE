@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+
+.mainHome {
+  width: 100vw;
+  height: 100vh;
+  background: #212529;
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 635px) {
+  .main {
+    align-items: center;
+    justify-content: center;
+  }
+}
